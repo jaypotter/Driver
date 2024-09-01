@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Potter\Driver\Database\Aware;
 
+use Potter\Driver\Database\DatabaseDriverInterface;
+
 abstract class AbstractDatabaseDriverAware 
 {
     abstract public function getDatabaseDriver(): DatabaseDriverInterface;
