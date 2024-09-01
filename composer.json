@@ -3,7 +3,9 @@
     "description": "PHP Driver Interface",
     "type": "library",
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "potter/aware": "^0.0.1",
+        "potter/name": "^0.0.1"
     },
     "license": "MIT",
     "autoload": {
