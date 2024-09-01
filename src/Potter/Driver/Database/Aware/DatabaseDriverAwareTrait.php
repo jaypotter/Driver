@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Potter\Driver\Database\Aware;
 
-use Potter\Driver\DriverInterface;
+use Potter\Driver\{DriverInterface, Database\DatabaseDriverInterface};
 
 trait DatabaseDriverAwareTrait 
 {   
