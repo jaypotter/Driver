@@ -4,8 +4,8 @@
     "type": "library",
     "require": {
         "php": "^8.3",
-        "potter/aware": "^0.0.1",
-        "potter/name": "^0.0.1"
+        "potter/aware": "dev-main",
+        "potter/name": "dev-main"
     },
     "license": "MIT",
     "autoload": {
@@ -19,5 +19,5 @@
             "email": "j@ypotter.ca"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
